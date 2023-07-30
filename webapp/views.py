@@ -4,7 +4,7 @@ from rest_framework.renderers import JSONRenderer
 from rest_framework.response import Response
 from django.views.generic import View  
 from django.shortcuts import render
-from django.http import FileResponse, StreamingHttpResponse
+from django.http import StreamingHttpResponse
 from rest_framework import status
 from faker import Faker
 
